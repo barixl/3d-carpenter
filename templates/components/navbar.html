@@ -1,0 +1,18 @@
+<nav id="navbar">
+    <a href="{{ url_for('home') }}" class="nav-logo">3D <span>Carpenter</span></a>
+    <ul class="nav-links">
+        <li><a href="{{ url_for('home') }}">Home</a></li>
+        <li><a href="{{ url_for('home') }}#services">Services</a></li>
+        <li><a href="{{ url_for('gallery') }}">Gallery</a></li>
+        <li><a href="{{ url_for('contact') }}">Contact</a></li>
+        <li><a href="tel:+917088051197" class="nav-cta">Call Now</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+</nav>
+<div class="mobile-menu" id="mobileMenu">
+    <a href="{{ url_for('home') }}" onclick="closeMobile()">Home</a>
+    <a href="{{ url_for('home') }}#services" onclick="closeMobile()">Services</a>
+    <a href="{{ url_for('gallery') }}" onclick="closeMobile()">Gallery</a>
+    <a href="{{ url_for('contact') }}" onclick="closeMobile()">Contact</a>
+    <a href="tel:+917088051197" onclick="closeMobile()" class="mobile-cta">Call Now</a>
+</div>
