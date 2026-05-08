@@ -1244,6 +1244,25 @@ textarea {
         text-align: center;
     }
 
+    .contact-item {
+        text-align: left;
+    }
+
+    .contact-info {
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .form-group label {
+        text-align: left;
+        display: block;
+        width: 100%;
+    }
+
+    .form-title {
+        text-align: left;
+    }
+
     .services-header {
         grid-template-columns: 1fr
     }
