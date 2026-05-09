@@ -1,5 +1,7 @@
 {% extends 'base.html' %}
 
+{% block title %}3D Carpenter | Best Custom Furniture & Bespoke Woodworking New Delhi{% endblock %}
+
 {% block extra_css %}
     <link rel="preload" as="image" href="{{ url_for('static', filename='img/banner/banner_1.webp') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/hero.css') }}">
@@ -17,7 +19,7 @@
         </div>
         <div class="hero-overlay"></div>
         <div class="hero-content">
-            <h1>Built By<br><em>Hand.</em> Made to Last.</h1>
+            <h1>Bespoke Woodworking<br><em>Built by Hand.</em> New Delhi</h1>
             <p class="hero-desc">We craft bespoke furniture, custom cabinetry, and fine woodwork for homes and
                 businesses — each piece shaped with precision, passion, and deep respect for the wood.</p>
             <div class="hero-actions">
@@ -45,7 +47,7 @@
     <section class="about" id="about">
         <div class="about-visual reveal-left">
             <div class="about-img-main">
-                <img src="{{ url_for('static', filename='img/craftsman_who_loved.webp') }}" alt="Master craftsman at work" loading="lazy" decoding="async">
+                <img src="{{ url_for('static', filename='img/craftsman_who_loved.webp') }}" alt="Master woodworker crafting bespoke furniture in New Delhi workshop" loading="lazy" decoding="async">
             </div>
         </div>
         <div class="reveal-right">
@@ -71,14 +73,14 @@
         </div>
         <div class="services-grid">
             <div class="svc-card reveal">
-                <div class="svc-img"><img src="{{ url_for('static', filename='img/services/furniture_making_custom_woodwork.webp') }}" alt="Furniture Making" loading="lazy" decoding="async"></div>
+                <div class="svc-img"><img src="{{ url_for('static', filename='img/services/furniture_making_custom_woodwork.webp') }}" alt="Custom furniture making and bespoke woodwork in New Delhi" loading="lazy" decoding="async"></div>
                 <div class="svc-body">
                     <h3 class="svc-name">Furniture Making & Custom Woodwork</h3>
                     <p class="svc-desc">Bespoke tables, chairs, and statement pieces crafted from premium hardwoods to your exact specifications.</p><button onclick="enquireService('Furniture Making')" class="svc-btn-wa">Enquire Now</button>
                 </div>
             </div>
             <div class="svc-card reveal">
-                <div class="svc-img"><img src="{{ url_for('static', filename='img/services/kitchen_and_cabinet_work.webp') }}" alt="Kitchen Work" loading="lazy" decoding="async"></div>
+                <div class="svc-img"><img src="{{ url_for('static', filename='img/services/kitchen_and_cabinet_work.webp') }}" alt="Luxury kitchen cabinetry and custom closet work in New Delhi" loading="lazy" decoding="async"></div>
                 <div class="svc-body">
                     <h3 class="svc-name">Kitchen & Cabinet Work</h3>
                     <p class="svc-desc">Custom kitchen units and storage solutions designed for functionality without compromising on craftsmanship.</p><button onclick="enquireService('{{ svc_name|default('Woodwork') }}')" class="svc-btn-wa">Enquire Now</button>

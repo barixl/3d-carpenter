@@ -1,9 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}3D Carpenter | Bespoke Woodworking{% endblock %}</title>
+    <meta name="description" content="3D Carpenter - Premium bespoke woodworking and custom furniture services in New Delhi. Specializing in kitchen cabinetry, wardrobes, doors, and luxury wood interiors.">
+    <meta name="keywords" content="custom furniture New Delhi, best carpenter Delhi, bespoke woodworking India, kitchen cabinetry New Delhi, custom wooden doors Delhi, 3D Carpenter Delhi, professional carpentry services Delhi, wood polishing New Delhi">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="3D Carpenter | Bespoke Woodworking & Custom Furniture in New Delhi">
+    <meta property="og:description" content="Master woodworkers crafting bespoke furniture, luxury cabinetry, and fine joinery in New Delhi. 25+ years of excellence.">
+    <meta property="og:image" content="{{ url_for('static', filename='img/3d-carpenter-logo.png', _external=True) }}">
+
+    <!-- Schema.org LocalBusiness -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "3D Carpenter",
+      "image": "{{ url_for('static', filename='img/3d-carpenter-logo.png', _external=True) }}",
+      "telephone": "+91-70880-51197",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "70 A, Pocket A 14, Himgiri Apartments",
+        "addressLocality": "New Delhi",
+        "postalCode": "110019",
+        "addressCountry": "IN"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "08:00",
+          "closes": "18:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "09:00",
+          "closes": "15:00"
+        }
+      ]
+    }
+    </script>
+
+    <title>{% block title %}3D Carpenter | Bespoke Woodworking & Custom Furniture New Delhi{% endblock %}</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800;900&family=Barlow+Condensed:wght@700;800;900&family=Playfair+Display:ital,wght@0,900;1,900&display=swap" rel="stylesheet">
