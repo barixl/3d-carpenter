@@ -36,7 +36,8 @@ img {
     display: block;
     width: 100%;
     height: 100%;
-    object-fit: cover
+    object-fit: cover;
+    content-visibility: auto;
 }
 
 body::after {
@@ -51,7 +52,9 @@ body::after {
 
 /* SECTION HELPERS */
 section {
-    padding: 100px 5vw
+    padding: 100px 5vw;
+    content-visibility: auto;
+    contain-intrinsic-size: 1px 500px;
 }
 
 .eyebrow {
@@ -162,7 +165,7 @@ section {
 
 .float-btn:hover { transform: scale(1.1); }
 
-.float-phone { background: var(--brown-dark); }
+.float-phone { background: var(--amber); color: var(--brown-dark); }
 .float-wa { background: #25D366; font-size: 1.8rem; }
 
 /* SVC BUTTON */

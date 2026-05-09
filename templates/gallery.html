@@ -72,6 +72,7 @@
             width: 100%;
             height: 100%;
             object-fit: cover;
+            content-visibility: auto;
         }
 
         .video-showcase {
@@ -159,15 +160,15 @@
     </div>
 
     <div class="gallery-grid">
-        <div class="gallery-item reveal"><img src="{{ url_for('static', filename='img/img1.jpeg') }}" alt="Project 1" loading="lazy"></div>
-        <div class="gallery-item reveal"><img src="{{ url_for('static', filename='img/img2.jpeg') }}" alt="Project 2" loading="lazy"></div>
-        <div class="gallery-item reveal"><img src="{{ url_for('static', filename='img/img3.jpeg') }}" alt="Project 3" loading="lazy"></div>
-        <div class="gallery-item reveal"><img src="{{ url_for('static', filename='img/img4.jpeg') }}" alt="Project 4" loading="lazy"></div>
-        <div class="gallery-item reveal"><img src="{{ url_for('static', filename='img/img5.jpeg') }}" alt="Project 5" loading="lazy"></div>
-        <div class="gallery-item reveal"><img src="{{ url_for('static', filename='img/img6.jpeg') }}" alt="Project 6" loading="lazy"></div>
-        <div class="gallery-item reveal"><img src="{{ url_for('static', filename='img/img7.jpeg') }}" alt="Project 7" loading="lazy"></div>
-        <div class="gallery-item reveal"><img src="{{ url_for('static', filename='img/wardrobe.webp') }}" alt="Wardrobe Project" loading="lazy"></div>
-        <div class="gallery-item reveal"><img src="{{ url_for('static', filename='img/custom-closet.webp') }}" alt="Custom Closet" loading="lazy"></div>
+        <div class="gallery-item reveal"><img src="{{ url_for('static', filename='img/img1.jpeg') }}" alt="Project 1" loading="lazy" decoding="async"></div>
+        <div class="gallery-item reveal"><img src="{{ url_for('static', filename='img/img2.jpeg') }}" alt="Project 2" loading="lazy" decoding="async"></div>
+        <div class="gallery-item reveal"><img src="{{ url_for('static', filename='img/img3.jpeg') }}" alt="Project 3" loading="lazy" decoding="async"></div>
+        <div class="gallery-item reveal"><img src="{{ url_for('static', filename='img/img4.jpeg') }}" alt="Project 4" loading="lazy" decoding="async"></div>
+        <div class="gallery-item reveal"><img src="{{ url_for('static', filename='img/img5.jpeg') }}" alt="Project 5" loading="lazy" decoding="async"></div>
+        <div class="gallery-item reveal"><img src="{{ url_for('static', filename='img/img6.jpeg') }}" alt="Project 6" loading="lazy" decoding="async"></div>
+        <div class="gallery-item reveal"><img src="{{ url_for('static', filename='img/img7.jpeg') }}" alt="Project 7" loading="lazy" decoding="async"></div>
+        <div class="gallery-item reveal"><img src="{{ url_for('static', filename='img/wardrobe.webp') }}" alt="Wardrobe Project" loading="lazy" decoding="async"></div>
+        <div class="gallery-item reveal"><img src="{{ url_for('static', filename='img/custom-closet.webp') }}" alt="Custom Closet" loading="lazy" decoding="async"></div>
     </div>
 
     <section class="video-showcase">

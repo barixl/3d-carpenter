@@ -45,7 +45,7 @@
     <section class="about" id="about">
         <div class="about-visual reveal-left">
             <div class="about-img-main">
-                <img src="{{ url_for('static', filename='img/craftsman_who_loved.webp') }}" alt="Master craftsman at work" loading="lazy">
+                <img src="{{ url_for('static', filename='img/craftsman_who_loved.webp') }}" alt="Master craftsman at work" loading="lazy" decoding="async">
             </div>
         </div>
         <div class="reveal-right">
@@ -71,63 +71,63 @@
         </div>
         <div class="services-grid">
             <div class="svc-card reveal">
-                <div class="svc-img"><img src="{{ url_for('static', filename='img/services/furniture_making_custom_woodwork.webp') }}" alt="Furniture Making" loading="lazy"></div>
+                <div class="svc-img"><img src="{{ url_for('static', filename='img/services/furniture_making_custom_woodwork.webp') }}" alt="Furniture Making" loading="lazy" decoding="async"></div>
                 <div class="svc-body">
                     <h3 class="svc-name">Furniture Making & Custom Woodwork</h3>
                     <p class="svc-desc">Bespoke tables, chairs, and statement pieces crafted from premium hardwoods to your exact specifications.</p><button onclick="enquireService('Furniture Making')" class="svc-btn-wa">Enquire Now</button>
                 </div>
             </div>
             <div class="svc-card reveal">
-                <div class="svc-img"><img src="{{ url_for('static', filename='img/services/kitchen_and_cabinet_work.webp') }}" alt="Kitchen Work" loading="lazy"></div>
+                <div class="svc-img"><img src="{{ url_for('static', filename='img/services/kitchen_and_cabinet_work.webp') }}" alt="Kitchen Work" loading="lazy" decoding="async"></div>
                 <div class="svc-body">
                     <h3 class="svc-name">Kitchen & Cabinet Work</h3>
                     <p class="svc-desc">Custom kitchen units and storage solutions designed for functionality without compromising on craftsmanship.</p><button onclick="enquireService('{{ svc_name|default('Woodwork') }}')" class="svc-btn-wa">Enquire Now</button>
                 </div>
             </div>
             <div class="svc-card reveal">
-                <div class="svc-img"><img src="{{ url_for('static', filename='img/services/door_and_window_work.webp') }}" alt="Doors and Windows" loading="lazy"></div>
+                <div class="svc-img"><img src="{{ url_for('static', filename='img/services/door_and_window_work.webp') }}" alt="Doors and Windows" loading="lazy" decoding="async"></div>
                 <div class="svc-body">
                     <h3 class="svc-name">Door & Window Work</h3>
                     <p class="svc-desc">Handcrafted interior and exterior doors, window frames, and surrounds built to last a lifetime.</p><button onclick="enquireService('{{ svc_name|default('Woodwork') }}')" class="svc-btn-wa">Enquire Now</button>
                 </div>
             </div>
             <div class="svc-card reveal">
-                <div class="svc-img"><img src="https://images.unsplash.com/photo-1541123437800-1bb1317badc2?w=800&q=80" alt="Wood Paneling" loading="lazy"></div>
+                <div class="svc-img"><img src="https://images.unsplash.com/photo-1541123437800-1bb1317badc2?w=800&q=80" alt="Wood Paneling" loading="lazy" decoding="async"></div>
                 <div class="svc-body">
                     <h3 class="svc-name">Interior Wood Paneling & Ceilings</h3>
                     <p class="svc-desc">Transform your space with elegant wood paneling and architectural ceiling details that add warmth and character.</p><button onclick="enquireService('{{ svc_name|default('Woodwork') }}')" class="svc-btn-wa">Enquire Now</button>
                 </div>
             </div>
             <div class="svc-card reveal">
-                <div class="svc-img"><img src="{{ url_for('static', filename='img/services/wardrobe_and_storage_solutions.webp') }}" alt="Wardrobes" loading="lazy"></div>
+                <div class="svc-img"><img src="{{ url_for('static', filename='img/services/wardrobe_and_storage_solutions.webp') }}" alt="Wardrobes" loading="lazy" decoding="async"></div>
                 <div class="svc-body">
                     <h3 class="svc-name">Wardrobe & Storage Solutions</h3>
                     <p class="svc-desc">Maximise your space with intelligent, built-in wardrobes and storage units tailored to your needs.</p><button onclick="enquireService('{{ svc_name|default('Woodwork') }}')" class="svc-btn-wa">Enquire Now</button>
                 </div>
             </div>
             <div class="svc-card reveal">
-                <div class="svc-img"><img src="{{ url_for('static', filename='img/services/office_furniture_and_fitouts.webp') }}" alt="Office Furniture" loading="lazy"></div>
+                <div class="svc-img"><img src="{{ url_for('static', filename='img/services/office_furniture_and_fitouts.webp') }}" alt="Office Furniture" loading="lazy" decoding="async"></div>
                 <div class="svc-body">
                     <h3 class="svc-name">Office Furniture & Fitouts</h3>
                     <p class="svc-desc">Professional workspace solutions, from ergonomic custom desks to complete commercial office installations.</p><button onclick="enquireService('{{ svc_name|default('Woodwork') }}')" class="svc-btn-wa">Enquire Now</button>
                 </div>
             </div>
             <div class="svc-card reveal">
-                <div class="svc-img"><img src="{{ url_for('static', filename='img/services/flooring_installation.webp') }}" alt="Flooring" loading="lazy"></div>
+                <div class="svc-img"><img src="{{ url_for('static', filename='img/services/flooring_installation.webp') }}" alt="Flooring" loading="lazy" decoding="async"></div>
                 <div class="svc-body">
                     <h3 class="svc-name">Flooring Installation</h3>
                     <p class="svc-desc">Precision-laid hardwood and engineered flooring that provides a beautiful, durable foundation for your home.</p><button onclick="enquireService('{{ svc_name|default('Woodwork') }}')" class="svc-btn-wa">Enquire Now</button>
                 </div>
             </div>
             <div class="svc-card reveal">
-                <div class="svc-img"><img src="{{ url_for('static', filename='img/services/wood_finishing_polishing.webp') }}" alt="Wood Finishing" loading="lazy"></div>
+                <div class="svc-img"><img src="{{ url_for('static', filename='img/services/wood_finishing_polishing.webp') }}" alt="Wood Finishing" loading="lazy" decoding="async"></div>
                 <div class="svc-body">
                     <h3 class="svc-name">Wood Finishing & Polishing</h3>
                     <p class="svc-desc">Professional restoration, refinishing, and hand-polishing services to bring out the natural beauty of your wood.</p><button onclick="enquireService('{{ svc_name|default('Woodwork') }}')" class="svc-btn-wa">Enquire Now</button>
                 </div>
             </div>
             <div class="svc-card reveal">
-                <div class="svc-img"><img src="{{ url_for('static', filename='img/services/general_carpentry.webp') }}" alt="General Carpentry" loading="lazy"></div>
+                <div class="svc-img"><img src="{{ url_for('static', filename='img/services/general_carpentry.webp') }}" alt="General Carpentry" loading="lazy" decoding="async"></div>
                 <div class="svc-body">
                     <h3 class="svc-name">General Carpentry & Custom Works</h3>
                     <p class="svc-desc">From minor repairs to complex structural projects — we handle all types of high-quality woodwork.</p><button onclick="enquireService('General Carpentry')" class="svc-btn-wa">Enquire Now</button>
@@ -188,15 +188,15 @@
         </div>
         <div class="gallery-grid reveal">
             <div class="gallery-item">
-                <div class="gimg"><img src="{{ url_for('static', filename='img/img1.jpeg') }}" alt="Custom dining table" loading="lazy"></div>
+                <div class="gimg"><img src="{{ url_for('static', filename='img/img1.jpeg') }}" alt="Custom dining table" loading="lazy" decoding="async"></div>
                 <div class="gallery-overlay"><span class="gallery-overlay-text">Bespoke Dining Furniture</span></div>
             </div>
             <div class="gallery-item">
-                <div class="gimg"><img src="{{ url_for('static', filename='img/img2.jpeg') }}" alt="Oak kitchen cabinets" loading="lazy"></div>
+                <div class="gimg"><img src="{{ url_for('static', filename='img/img2.jpeg') }}" alt="Oak kitchen cabinets" loading="lazy" decoding="async"></div>
                 <div class="gallery-overlay"><span class="gallery-overlay-text">Premium Cabinetry</span></div>
             </div>
             <div class="gallery-item">
-                <div class="gimg"><img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=800&q=80" alt="Built-in library" loading="lazy"></div>
+                <div class="gimg"><img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=800&q=80" alt="Built-in library" loading="lazy" decoding="async"></div>
                 <div class="gallery-overlay"><span class="gallery-overlay-text">Built-in Library</span></div>
             </div>
         </div>
@@ -213,31 +213,31 @@
             <p class="section-desc">We could list certifications and awards — but we'd rather show you why clients keep coming back, project after project.</p>
             <div class="features-grid">
                 <div class="feat-card">
-                    <div class="feat-icon-img"><img src="https://images.unsplash.com/photo-1542621334-a254cf47733d?w=120&q=80" alt="Sustainable wood" loading="lazy"></div>
+                    <div class="feat-icon-img"><img src="https://images.unsplash.com/photo-1542621334-a254cf47733d?w=120&q=80" alt="Sustainable wood" loading="lazy" decoding="async"></div>
                     <h4 class="feat-title">Sustainably Sourced</h4>
                     <p class="feat-desc">FSC-certified hardwoods from responsibly managed forests only.</p>
                 </div>
                 <div class="feat-card">
-                    <div class="feat-icon-img"><img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=120&q=80" alt="Design work" loading="lazy"></div>
+                    <div class="feat-icon-img"><img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=120&q=80" alt="Design work" loading="lazy" decoding="async"></div>
                     <h4 class="feat-title">Design-First</h4>
                     <p class="feat-desc">In-house designers work with you until every detail is exactly right.</p>
                 </div>
                 <div class="feat-card">
-                    <div class="feat-icon-img"><img src="https://images.unsplash.com/photo-1581428982868-e410dd047a90?w=120&q=80" alt="Quality joinery" loading="lazy"></div>
+                    <div class="feat-icon-img"><img src="https://images.unsplash.com/photo-1581428982868-e410dd047a90?w=120&q=80" alt="Quality joinery" loading="lazy" decoding="async"></div>
                     <h4 class="feat-title">10-Year Guarantee</h4>
                     <p class="feat-desc">A decade-long guarantee on all structural joints and connections.</p>
                 </div>
                 <div class="feat-card">
-                    <div class="feat-icon-img"><img src="https://images.unsplash.com/photo-1549187774-b4e9b0445b41?w=120&q=80" alt="On time delivery" loading="lazy"></div>
+                    <div class="feat-icon-img"><img src="https://images.unsplash.com/photo-1549187774-b4e9b0445b41?w=120&q=80" alt="On time delivery" loading="lazy" decoding="async"></div>
                     <h4 class="feat-title">On-Time Delivery</h4>
                     <p class="feat-desc">1,400+ projects delivered on schedule with no surprise invoices.</p>
                 </div>
             </div>
         </div>
         <div class="why-visual reveal-right">
-            <div class="why-img"><img src="{{ url_for('static', filename='img/img3.jpeg') }}" alt="Workshop" loading="lazy"></div>
-            <div class="why-img"><img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=600&q=80" alt="Wood detail" loading="lazy"></div>
-            <div class="why-img"><img src="{{ url_for('static', filename='img/img6.jpeg') }}" alt="Finished furniture" loading="lazy"></div>
+            <div class="why-img"><img src="{{ url_for('static', filename='img/img3.jpeg') }}" alt="Workshop" loading="lazy" decoding="async"></div>
+            <div class="why-img"><img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=600&q=80" alt="Wood detail" loading="lazy" decoding="async"></div>
+            <div class="why-img"><img src="{{ url_for('static', filename='img/img6.jpeg') }}" alt="Finished furniture" loading="lazy" decoding="async"></div>
         </div>
     </section>
 
@@ -248,19 +248,19 @@
         <p class="section-desc">An exceptional range of hardwoods selected for grain, durability, and beauty.</p>
         <div class="mat-grid reveal">
             <div class="mat-card">
-                <div class="mat-img"><img src="{{ url_for('static', filename='img/premium_wood/english_oak.webp') }}" alt="English Oak" loading="lazy"></div>
+                <div class="mat-img"><img src="{{ url_for('static', filename='img/premium_wood/english_oak.webp') }}" alt="English Oak" loading="lazy" decoding="async"></div>
                 <div class="mat-label">English Oak</div>
             </div>
             <div class="mat-card">
-                <div class="mat-img"><img src="{{ url_for('static', filename='img/premium_wood/walnut.webp') }}" alt="Walnut" loading="lazy"></div>
+                <div class="mat-img"><img src="{{ url_for('static', filename='img/premium_wood/walnut.webp') }}" alt="Walnut" loading="lazy" decoding="async"></div>
                 <div class="mat-label">Walnut</div>
             </div>
             <div class="mat-card">
-                <div class="mat-img"><img src="{{ url_for('static', filename='img/premium_wood/maple.webp') }}" alt="Maple" loading="lazy"></div>
+                <div class="mat-img"><img src="{{ url_for('static', filename='img/premium_wood/maple.webp') }}" alt="Maple" loading="lazy" decoding="async"></div>
                 <div class="mat-label">Maple</div>
             </div>
             <div class="mat-card">
-                <div class="mat-img"><img src="{{ url_for('static', filename='img/premium_wood/cherry.webp') }}" alt="Cherry" loading="lazy"></div>
+                <div class="mat-img"><img src="{{ url_for('static', filename='img/premium_wood/cherry.webp') }}" alt="Cherry" loading="lazy" decoding="async"></div>
                 <div class="mat-label">Cherry</div>
             </div>
         </div>
@@ -326,12 +326,12 @@
         </div>
         <div class="faq-container reveal">
             <div class="faq-questions">
-                <div class="faq-item"><button class="faq-question">How long does a custom project take?<span class="faq-arrow">▾</span></button><div class="faq-answer"><div class="faq-answer-inner">Timelines vary by size and complexity. A single piece of furniture typically takes 6–10 weeks. A full kitchen or staircase can take 12–16 weeks. We'll give you a firm timeline before you commit to anything.</div></div></div>
-                <div class="faq-item"><button class="faq-question">Do you offer free consultations?<span class="faq-arrow">▾</span></button><div class="faq-answer"><div class="faq-answer-inner">Yes, absolutely. Initial consultations are always free and no obligation. We can meet at our workshop, visit your home, or chat over video call — whatever suits you best.</div></div></div>
-                <div class="faq-item"><button class="faq-question">Can I choose my own wood species?<span class="faq-arrow">▾</span></button><div class="faq-answer"><div class="faq-answer-inner">Absolutely. We work with Oak, Walnut, Ash, Maple, Cherry and more. We can also source specialist or reclaimed timbers. We'll advise you on which species best suits your project and budget.</div></div></div>
-                <div class="faq-item"><button class="faq-question">What areas do you cover?<span class="faq-arrow">▾</span></button><div class="faq-answer"><div class="faq-answer-inner">Based in Bristol, we primarily serve clients within a 150-mile radius. For larger commercial projects we work nationally. Delivery and installation charges apply outside our standard area.</div></div></div>
-                <div class="faq-item"><button class="faq-question">What is your payment structure?<span class="faq-arrow">▾</span></button><div class="faq-answer"><div class="faq-answer-inner">We work with a 40% deposit on order confirmation, 30% mid-production, and 30% on completion. For larger commercial projects we can discuss staged payment schedules.</div></div></div>
-                <div class="faq-item"><button class="faq-question">Do you offer repairs or restoration?<span class="faq-arrow">▾</span></button><div class="faq-answer"><div class="faq-answer-inner">Yes — we love breathing new life into old pieces. Family heirlooms, tired furniture, damaged joinery — we offer full restoration, refinishing, and structural repair services.</div></div></div>
+                <div class="faq-item"><button class="faq-question">How long does a custom project take?<i class="fa-solid fa-chevron-down faq-arrow"></i></button><div class="faq-answer"><div class="faq-answer-inner">Timelines vary by size and complexity. A single piece of furniture typically takes 6–10 weeks. A full kitchen or staircase can take 12–16 weeks. We'll give you a firm timeline before you commit to anything.</div></div></div>
+                <div class="faq-item"><button class="faq-question">Do you offer free consultations?<i class="fa-solid fa-chevron-down faq-arrow"></i></button><div class="faq-answer"><div class="faq-answer-inner">Yes, absolutely. Initial consultations are always free and no obligation. We can meet at our workshop, visit your home, or chat over video call — whatever suits you best.</div></div></div>
+                <div class="faq-item"><button class="faq-question">Can I choose my own wood species?<i class="fa-solid fa-chevron-down faq-arrow"></i></button><div class="faq-answer"><div class="faq-answer-inner">Absolutely. We work with Oak, Walnut, Ash, Maple, Cherry and more. We can also source specialist or reclaimed timbers. We'll advise you on which species best suits your project and budget.</div></div></div>
+                <div class="faq-item"><button class="faq-question">What areas do you cover?<i class="fa-solid fa-chevron-down faq-arrow"></i></button><div class="faq-answer"><div class="faq-answer-inner">Based in Bristol, we primarily serve clients within a 150-mile radius. For larger commercial projects we work nationally. Delivery and installation charges apply outside our standard area.</div></div></div>
+                <div class="faq-item"><button class="faq-question">What is your payment structure?<i class="fa-solid fa-chevron-down faq-arrow"></i></button><div class="faq-answer"><div class="faq-answer-inner">We work with a 40% deposit on order confirmation, 30% mid-production, and 30% on completion. For larger commercial projects we can discuss staged payment schedules.</div></div></div>
+                <div class="faq-item"><button class="faq-question">Do you offer repairs or restoration?<i class="fa-solid fa-chevron-down faq-arrow"></i></button><div class="faq-answer"><div class="faq-answer-inner">Yes — we love breathing new life into old pieces. Family heirlooms, tired furniture, damaged joinery — we offer full restoration, refinishing, and structural repair services.</div></div></div>
             </div>
             <div class="faq-footer">
                 <p class="section-desc">Have a question not answered here? Get in touch — we're always happy to chat.</p>
@@ -358,9 +358,9 @@
             <h2 class="section-title">Let's Build<br><em>Something Great</em></h2>
             <p class="section-desc">Have a project in mind? Drop us a message and we'll get back to you within one business day.</p>
             <div class="contact-info">
-                <div class="contact-item"><div class="contact-icon">📍</div><div><div class="contact-label">Workshop</div><div class="contact-value">Govindpuri, New Delhi 110019</div></div></div>
-                <div class="contact-item"><div class="contact-icon">📞</div><div><div class="contact-label">Phone</div><div class="contact-value">+91 70880 51197</div></div></div>
-                <div class="contact-item"><div class="contact-icon">🕐</div><div><div class="contact-label">Opening Hours</div><div class="contact-value">Mon–Fri 8am–6pm · Sat 9am–3pm</div></div></div>
+                <div class="contact-item"><div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div><div><div class="contact-label">Workshop</div><div class="contact-value">70 A, Pocket A 14, Himgiri Apartments</div></div></div>
+                <div class="contact-item"><div class="contact-icon"><i class="fa-solid fa-phone"></i></div><div><div class="contact-label">Phone</div><div class="contact-value"><a href="tel:+917088051197" style="color: inherit; text-decoration: none;">+91 70880 51197</a></div></div></div>
+                <div class="contact-item"><div class="contact-icon"><i class="fa-solid fa-clock"></i></div><div><div class="contact-label">Opening Hours</div><div class="contact-value">Mon–Fri 8am–6pm · Sat 9am–3pm</div></div></div>
             </div>
             <div class="contact-map" style="height: 300px; overflow: hidden; border-radius: 4px; border: 1px solid var(--border);">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3505.3190475442693!2d77.26406477549708!3d28.530128475720733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjjCsDMxJzQ4LjUiTiA3N8KwMTUnNTkuOSJF!5e0!3m2!1sen!2sde!4v1778261565942!5m2!1sen!2sde" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

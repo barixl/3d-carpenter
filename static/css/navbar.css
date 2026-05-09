@@ -20,18 +20,36 @@ nav.scrolled {
 }
 
 .nav-logo {
-    font-family: 'Barlow Condensed', sans-serif;
-    font-weight: 900;
-    font-size: 1.65rem;
-    letter-spacing: .04em;
-    text-transform: uppercase;
-    color: var(--brown-dark);
+    display: flex;
+    align-items: center;
+    height: 60px;
     text-decoration: none;
-    transition: color .3s
+    transition: transform 0.3s;
+}
+
+.nav-logo:hover {
+    transform: scale(1.02);
+}
+
+.nav-logo img {
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+    margin-right: 12px;
 }
 
 .nav-logo span {
-    color: var(--amber)
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    color: var(--brown-dark);
+}
+
+.nav-logo span em {
+    font-style: italic;
+    color: var(--amber);
 }
 
 .nav-links {
@@ -65,6 +83,12 @@ nav.scrolled {
 
 .nav-cta:hover {
     background: var(--amber-light) !important
+}
+
+.nav-cta i {
+    margin-right: 6px;
+    font-size: 0.9em;
+    opacity: 0.9;
 }
 
 .hamburger {
@@ -149,4 +173,8 @@ nav.scrolled {
 .mobile-menu a.mobile-cta:active {
     background: var(--amber-light);
     transform: translateY(1px);
+}
+
+.mobile-menu a.mobile-cta i {
+    margin-right: 8px;
 }
